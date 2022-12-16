@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import MenuNavBar from "./MenuNavBar";
-import '../../public/stylesheets/home.css';
+import Carousel from "./Carousel";
+import '../../public/stylesheets/home/home.css';
 
 function Home() {
     return (
@@ -9,10 +10,10 @@ function Home() {
 
             <NavBar />  
             <MenuNavBar/>          
-            <div className="container-home">                
-       
-
+            <div className="container-home">      
             </div>
+
+            <Carousel/>
         </>
     )
 }

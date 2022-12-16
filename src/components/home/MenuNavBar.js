@@ -1,4 +1,4 @@
-import '../../public/stylesheets/menuNavbar.css';
+import '../../public/stylesheets/home/menuNavbar.css';
 
 
 function MenuNavBar() {
