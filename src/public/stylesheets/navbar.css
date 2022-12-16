@@ -1,11 +1,11 @@
 .topbar {
     display: flex;
     justify-content: space-around;
-    width: 90%;    
-    color: green; 
+    width: 100%;    
+    color: green;     
+    background-color: white;
     padding: 1rem; 
-
-    opacity: 0.8; 
+    
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -28,6 +28,7 @@
 
 .topbar-title h4{
    color: rgb(237, 159, 14);
+   
 }
 
 /* SEARCH */
@@ -88,4 +89,33 @@
     margin: 0.5rem;
 }
 
+/* burger-menu */
 
+.burger-menu{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+@media(max-width: 750px) {
+    .search{
+        display: none;        
+    }
+    .user-icons{
+        display: none;
+    }
+
+    .burger-icon{
+        display: block;
+    }
+
+}
+
+@media(min-width: 751px) {
+    .burger-icon {
+        display: none;
+    }
+}

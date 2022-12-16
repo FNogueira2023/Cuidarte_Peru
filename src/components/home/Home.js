@@ -1,15 +1,18 @@
 import NavBar from "./NavBar";
+import MenuNavBar from "./MenuNavBar";
 import '../../public/stylesheets/home.css';
 
 function Home() {
     return (
-        <>        
-        <NavBar />
+        <>
 
-        <div className="container-home">    
-        
-      
-        </div>
+
+            <NavBar />  
+            <MenuNavBar/>          
+            <div className="container-home">                
+       
+
+            </div>
         </>
     )
 }

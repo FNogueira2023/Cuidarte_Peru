@@ -1,0 +1,30 @@
+.menuNav{
+    width: 100%; 
+    position: fixed;
+    top: 0; 
+    z-index: 1000;    
+}
+
+.menuList{    
+    display: flex;  
+    justify-content: center;   
+
+    margin-top: 6.9rem;
+    list-style: none;
+    background-color: white;
+}
+
+.menuList-item{
+    display: flex;
+    align-items: center;
+    margin-right:2rem;
+    font-size: 15px;
+    height: 40px;
+}
+
+
+@media(max-width: 750px) {
+    .menuNav{
+        display: none;
+    }
+}
