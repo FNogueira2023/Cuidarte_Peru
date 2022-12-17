@@ -1,19 +1,21 @@
 import NavBar from "./NavBar";
 import MenuNavBar from "./MenuNavBar";
-import Carousel from "./Carousel";
+import SimpleSlider from "./Carousel";
 import '../../public/stylesheets/home/home.css';
+
 
 function Home() {
     return (
         <>
 
 
-            <NavBar />  
-            <MenuNavBar/>          
-            <div className="container-home">      
+            <NavBar />
+            <MenuNavBar />            
+            <div className="container-home">
+            <SimpleSlider/>
+              
             </div>
 
-            <Carousel/>
         </>
     )
 }

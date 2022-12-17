@@ -1,46 +1,36 @@
-import '../../public/javascript/carousel.js';
-import boticaImagen from '../../public/images/botica.jpg';
+import React from "react";
+import Slider from "react-slick";
 
-function Carousel() {
+function SimpleSlider() {
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
     return (
-        <>
-            {/* <!-- Slideshow container --> */}
-            <div className="slideshow-container">
-
-                {/* <!-- Full-width images with number and caption text --> */}
-                <div className="mySlides fade">
-                    <div className="numbertext">1 / 3</div>
-                    <img src={boticaImagen} style="width:100%" />
-                    <div className="text">Caption Text</div>
-                </div>
-
-                <div className="mySlides fade">
-                    <div className="numbertext">2 / 3</div>
-                    <img src={boticaImagen} style="width:100%" />
-                    <div className="text">Caption Two</div>
-                </div>
-
-                <div className="mySlides fade">
-                    <div className="numbertext">3 / 3</div>
-                    <img src={boticaImagen} style="width:100%" />
-                    <div className="text">Caption Three</div>
-                </div>
-
-                {/* <!-- Next and previous buttons --> */}
-                <a className="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a className="next" onclick="plusSlides(1)">&#10095;</a>
+        <Slider {...settings}>
+            <div>
+                <h3>1</h3>
             </div>
-
-
-            {/* <!-- The dots/circles --> */}
-            <div style="text-align:center">
-                <span className="dot" onclick="currentSlide(1)"></span>
-                <span className="dot" onclick="currentSlide(2)"></span>
-                <span className="dot" onclick="currentSlide(3)"></span>
+            <div>
+                <h3>2</h3>
             </div>
-
-        </>
-    )
+            <div>
+                <h3>3</h3>
+            </div>
+            <div>
+                <h3>4</h3>
+            </div>
+            <div>
+                <h3>5</h3>
+            </div>
+            <div>
+                <h3>6</h3>
+            </div>
+        </Slider>
+    );
 }
 
-export default Carousel;
+export default SimpleSlider;
