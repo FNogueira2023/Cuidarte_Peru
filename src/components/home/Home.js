@@ -1,6 +1,8 @@
 import NavBar from "./NavBar";
 import MenuNavBar from "./MenuNavBar";
 import SimpleSlider from "./Carousel";
+import Categorias from "./Categorias";
+
 import '../../public/stylesheets/home/home.css';
 
 
@@ -10,10 +12,11 @@ function Home() {
 
 
             <NavBar />
-            <MenuNavBar />            
-            <div className="container-home">
-            <SimpleSlider
-            />
+            <MenuNavBar />           
+
+            <div className="container-home">                
+            <SimpleSlider />
+            <Categorias/>
               
             </div>
 

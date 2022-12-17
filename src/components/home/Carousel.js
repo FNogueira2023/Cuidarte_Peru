@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import '../../public/stylesheets/home/carousel.css';
-import boticaImg1 from '../../public/images/botica4.jpg';
+import boticaImg1 from '../../public/images/botica.jpg';
 
 
 function SimpleSlider() {

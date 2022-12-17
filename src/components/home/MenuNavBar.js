@@ -7,25 +7,25 @@ function MenuNavBar() {
             <div className='menuNav'>
                 <ul className='menuList'>
                     <li className='menuList-item'>
-                        <a>Belleza</a>
+                        <a href='#'>Belleza</a>
                     </li>
                     <li className='menuList-item'>
-                        <a>Dermocosmética</a>
+                        <a href='#'>Dermocosmética</a>
                     </li>
                     <li className='menuList-item'>
-                        <a>Cuidado Personal</a>
+                        <a href='#'>Cuidado Personal</a>
                     </li>
                     <li className='menuList-item'>
-                        <a>Bebés</a>
+                        <a href='#'>Bebés</a>
                     </li>
                     <li className='menuList-item'>
-                        <a>Hogar y Alimentos</a>
+                        <a href='#'>Hogar y Alimentos</a>
                     </li>
                     <li className='menuList-item'>
-                        <a>Salud y Farmacia</a>
+                        <a href='#'>Salud y Farmacia</a>
                     </li>
                     <li className='menuList-item'>
-                        <a>Pago Servicios</a>
+                        <a href='#'>Pago Servicios</a>
                     </li>
                 </ul>
             </div>
