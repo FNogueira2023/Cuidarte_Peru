@@ -1,0 +1,12 @@
+.carousel-img{
+    width: 1200px;
+    height: 500px;
+}
+/*  (1200px x 600px approx) */
+
+
+@media(max-width: 750px) {
+    .slider-container{
+        display: none;
+    }
+}

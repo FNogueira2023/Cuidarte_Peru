@@ -12,7 +12,8 @@ function Home() {
             <NavBar />
             <MenuNavBar />            
             <div className="container-home">
-            <SimpleSlider/>
+            <SimpleSlider
+            />
               
             </div>
 
