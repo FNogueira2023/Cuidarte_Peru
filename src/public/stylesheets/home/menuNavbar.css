@@ -24,7 +24,7 @@
     height: 40px;
 }
 
-.menuList-item a {
+.menuList-item .menuList-link {
     text-decoration: none;
     color: black;
 }
