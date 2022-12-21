@@ -5,26 +5,37 @@
     justify-content: center;
 
 
-    border: 1px solid black;
+
+    box-shadow: 0px 0px 4px rgb(100, 100, 100);
+    background-color: white; 
+    border-radius: 20px;   
 }
 
 .sales-anouncement {
     width: 20%;
     text-align: center;
     padding: 1rem;
+
+    font-weight: bold;
 }
 
-.sales-anouncement-subtitle {
-    border: solid 1px black;
-    text-align: center;
-    padding: 0.2rem;
-    margin: 1rem 0;
+.sales-anouncement-subtitle {   
+    width: 100%;
+    margin: 2rem 0; 
+    align-items: center;    
+    text-align: center; 
+    padding: 10px;   
+    /* margin: 1rem 0; */
+
+    color: white;
+    font-weight: bold;
+    background-color: rgb(237, 159, 14); 
+    border-radius: 10px;
 }
 
 .sales-carts {
     padding: 1rem;
     width: 80%;
     display: flex;
-    justify-content: center;
-    border: solid 1px black;
+    justify-content: center;    
 }

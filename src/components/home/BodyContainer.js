@@ -5,9 +5,8 @@ import Sales from "./Sales";
 function BodyContainer() {
     return (
         <div className="container-home">
-            <SimpleSlider />
+            <SimpleSlider />            
             <Categorias />
-
             <Sales />
 
         </div>

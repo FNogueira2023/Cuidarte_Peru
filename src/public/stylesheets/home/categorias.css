@@ -1,3 +1,8 @@
+.categorias-titulo{
+    margin-top: 3rem;
+    margin-bottom: -3rem;
+}
+
 .categorias-menu {
     width: 80%;
     margin: auto;
@@ -11,6 +16,7 @@
 }
 
 .categoria-item {
+    padding: 5px;
     width: 146px;
     height: 64px;
     margin: 0;
@@ -20,7 +26,8 @@
     gap: 15px;
     -moz-box-shadow: 0 3px 14px rgba(0, 0, 0, .06);
     -webkit-box-shadow: 0 3px 14px rgb(0 0 0 / 6%);
-    box-shadow: 0 3px 14px rgb(0 0 0 / 6%);
+   
+    box-shadow: 0px 0px 2px rgb(100, 100, 100);
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;

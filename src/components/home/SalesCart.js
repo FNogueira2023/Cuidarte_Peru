@@ -3,22 +3,22 @@ import '../../public/stylesheets/home/salesCart.css';
 
 function SalesCart() {
     return (
-        <div clasName='sales-cart'>
+        <article clasName='sales-cart'>
             <div className='sales-cart-container'>
                 <img className='sales-cart-img' src={shampooImg} />
-                <div className="description">
-                    <h6>Dove</h6>
-                    <h6>Acondicionador Dove Nutritive Secrets Ritual de Crecimiento x 400</h6>
+                <div className="sales-cart-description">
+                    <p>Dove</p>
+                    <p>Acondicionador Dove Nutritive Secrets Ritual de Crecimiento x 400</p>
                 </div>
 
-                <h6 className='sales-price'> S/40</h6>
+                <p className='sales-price'> S/40.00</p>
 
-                <button>
+                <button className='sales-button'>
                     Agregar al carrito
                 </button>
 
             </div>
-        </div>
+        </article>
     )
 }
 

@@ -7,7 +7,7 @@ function Sales() {
             <div className='sales-anouncement'>
                 <h3 className='sales-anouncement-title'>¡Aproveche estas grandes ofertas!</h3>
                 <div className='sales-anouncement-subtitle'>
-                   <p>Descuentos increibles</p>
+                   <h6>Descuentos increibles</h6>
                 </div>                
                 <h5>¡Aún queda Tiempo!</h5>
 
