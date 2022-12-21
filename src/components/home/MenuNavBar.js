@@ -10,6 +10,9 @@ function MenuNavBar() {
         <>
             <div className='menuNav'>
                 <ul className='menuList'>
+                <li className='menuList-item'>
+                        <Link className='menuList-link' to='/'>Home</Link>
+                    </li>
                     <li className='menuList-item'>
                         <Link className='menuList-link' to='/belleza'>Belleza</Link>
                     </li>
