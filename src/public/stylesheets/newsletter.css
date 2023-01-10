@@ -1,0 +1,36 @@
+.newsletter{     
+    width: 100%;
+    height: 180px;
+    margin-top: 5rem;
+    margin-bottom: -2rem;
+    background-color: green;
+    
+    color: white;
+    
+    display: flex;
+    text-align: center;    
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input{
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.newsletter button {
+    width: 100%;
+    max-width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+
+    background-color: orange;
+    color: white;
+
+}

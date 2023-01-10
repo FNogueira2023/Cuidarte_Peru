@@ -5,7 +5,7 @@ function Sales() {
     return (
         <div className='sales-container'>
             <div className='sales-anouncement'>
-                <h3 className='sales-anouncement-title'>¡Aproveche estas grandes ofertas!</h3>
+                <h3 className='sales-anouncement-title'>¡Aprovecha estas grandes ofertas!</h3>
                 <div className='sales-anouncement-subtitle'>
                    <h6>Descuentos increibles</h6>
                 </div>                
@@ -17,7 +17,7 @@ function Sales() {
             <div className='sales-carts'>
                 <SalesCart/>
                 <SalesCart/>
-                <SalesCart/>
+                <SalesCart/>                
             </div>
         </div>
 

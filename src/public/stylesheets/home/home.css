@@ -4,3 +4,42 @@
     margin: 14rem auto;
 
 }
+
+.banner-horizontal {
+    width: 100%;
+    height: 250px;  
+    object-fit: fill;
+    margin-top: 3rem;   
+}
+
+.banners-verticales{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner-vertical {
+    width: 48%;    
+    height: 250px;  
+    object-fit: fill;
+    margin-top: 3rem;   
+    gap: 1rem;   
+}
+
+
+.banners-servicios{
+    margin-top: 3rem;
+    width: 100%;  
+    
+
+}
+
+.banner-servicio {
+    width: 100%;    
+    height: 200px;  
+    object-fit:cover;
+    margin-top: 2rem;
+    gap: 1rem;  
+}

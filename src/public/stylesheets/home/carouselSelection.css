@@ -1,0 +1,23 @@
+.carouselSelection {
+    width: 1200px;
+    margin-top: 5rem;    
+}
+
+.carouselSelectionTitles{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carouselSelectionTitle {   
+}
+
+.carouselSelectionSubtitle {
+    text-align: right;
+    margin: 1rem 2rem;
+    
+}
+
+.sales-cart-container {
+    border: solid 0.1px grey;
+}
