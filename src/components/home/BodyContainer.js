@@ -4,6 +4,7 @@ import Sales from "./Sales";
 import CarouselSelection from './CarouselSelection';
 
 import Newsletter from "../Newsletter";
+import Footer from "../Footer";
 
 import perfumesBanner from '../../public/images/perfumesBanner.jpg';
 import cosmeticaNatural from '../../public/images/cosmeticaNatural.jpg';
@@ -38,6 +39,7 @@ function BodyContainer() {
 
 
             <Newsletter/>
+            <Footer/>
 
 
 
