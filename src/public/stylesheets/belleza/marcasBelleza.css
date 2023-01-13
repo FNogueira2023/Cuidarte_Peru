@@ -1,24 +1,23 @@
-.categorias-titulo{
+.marcasBelleza-titulo{
     margin-top: 3rem;
     margin-bottom: -3rem;
 }
 
-.categorias-menu {
-    width: 95%;
+.marcasBelleza-menu {
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 20px;   
     padding: 1rem;
     margin: 3rem 0;
 }
 
-.categoria-item {
-    padding: 5px;
-    width: 146px;
-    height: 64px;
+.marcasBelleza-item {   
+    width: 170px;
+    height: 85px;
     margin: 0;
     display: flex;
     align-items: center;
@@ -33,11 +32,15 @@
     border-radius: 10px;
 
     text-decoration: none;
-    color: black;
+    color: black;    
+}
+
+.marcasBelleza-img {
+    width: 75%;
+    object-fit: contain;
     
 }
 
-.categoria-icon{
-    color: rgb(237, 159, 14);
-}
+
+
 

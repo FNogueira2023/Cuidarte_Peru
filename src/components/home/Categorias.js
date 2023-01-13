@@ -4,7 +4,7 @@ function Categorias() {
     return (
 
         <>
-            <h5 className='categorias-titulo'>Categorías</h5>
+            <h4 className='categorias-titulo'>Categorías</h4>
 
             <div className="categorias-menu">
                 <a href='#' className="categoria-item">
